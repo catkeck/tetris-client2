@@ -1,0 +1,76 @@
+#board {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 260px;
+}
+
+.row {
+  height:20px;
+  display: flex;
+  max-width: 260px;  
+}
+
+.row-empty {
+  height:20px;
+  outline: none;
+  display: flex;
+  max-width: 260px;  
+}
+
+.cell {
+    border: 1px solid #ddd;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 1px;
+    vertical-align: top;
+  }
+
+.cell-empty{
+  width:20px;
+  height:20px;
+  outline: none;
+}
+
+.cyan {
+  background: #00ffff; !important
+}
+
+.blue {
+  background: #3366ff; !important
+}
+
+.orange {
+  background: #ff9933; !important
+}
+
+.yellow {
+  background: #ffff66; !important
+}
+
+.green {
+  background: #66ff33; !important
+}
+
+.purple {
+  background: #cc66ff; !important
+}
+
+.red {
+  background: #ff5050; !important
+}
+
+#game-over {
+  width:260px;
+  height:520px;
+  border: 1px solid #ddd;
+}
+
+#game-over h1, h2{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
+  text-align: center;
+  vertical-align: middle;
+}
